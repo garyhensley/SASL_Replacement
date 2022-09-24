@@ -1,0 +1,141 @@
+{
+	"Aircraft":"Ercoupe",
+
+	"DKMP": true,
+	"Tbient":false,	
+	
+	"ControlSurfaces": {
+		"Load": false
+	},	
+	"Doors": {
+		"Load": false
+	},
+	"HideYokes": {
+		"Load": false
+	},
+	"LandingGear": {
+		"Load": true
+	},
+	"Pilots": {
+		"PilotX": 0.05,
+		"PilotY": -0.15,
+		"PilotZ": 2.95,
+		"PassengerX": -0.05,
+		"PassengerY": -0.15,
+		"PassengerZ": 3.00,
+		"people": [
+			{
+				"id":1,
+				"x":0.0,
+				"y":0.0,
+				"z":0.83,
+				"Load":true
+			} , {
+				"id":2,
+				"x":0.0,
+				"y":0.0,
+				"z":0.89,
+				"Load":true				
+			} , {
+				"id":3,
+				"x":0.0,
+				"y":0.0,
+				"z":0.0,
+				"Load":true				
+			} , {
+				"id":4,
+				"x":0.0,
+				"y":0.0,
+				"z":0.0,
+				"Load":true				
+			}
+		],
+		"Load": true
+	},
+	"PropDisc": {
+		"Load": true
+	},
+	"TowBar": {
+		"Steer": 1,
+		"Load": true
+	},
+	"Windows": {
+		"Load": false
+	},
+	
+	"ElectricalSystem": {
+		"Load": true
+	},	
+	
+	"EngineCalc": {
+		"Load": false
+	},
+	"NoseWheel": {
+		"RealNose": true,
+		"YokeSteer": true,
+		"Steer": 1,
+		"Load": true
+	},
+	"PhysicsCalc": {
+		"DKMP" : false,
+		"DKMP_L": 0.8,
+		"DKMP_M": 0.0,
+		"DKMP_N": 0.6,
+		"Advanced": true,
+		"Load": false
+	},
+	
+	"Autopilot": {
+		"Name": "basic",
+		"Load": false
+	},	
+	
+	"OptionsMenu": {
+		"opts":[{
+			"x":68,
+			"y":347,
+			"desc":"Pilot Window",
+			"drf":"sim/cockpit2/switches/custom_slider_on[0]"			
+		},{
+			"x":68,
+			"y":275,
+			"desc":"Passenger Window",
+			"drf":"sim/cockpit2/switches/custom_slider_on[1]"
+		},{
+			"x":68,
+			"y":200,
+			"desc":"Static Elements",
+			"drf":"gkh/views/staticelements"
+		},{
+			"x":68,
+			"y":120,
+			"desc":"Cover",
+			"drf":"gkh/views/planecover"
+		},{
+			"x":365,
+			"y":347,
+			"desc":"Towbar Handle",
+			"drf":"gkh/gear/Towbar"
+		},{
+			"x":365,
+			"y":275,
+			"desc":"Real Steer",
+			"drf":"gkh/gear/RealSteer"
+		},{
+			"x":365,
+			"y":200,
+			"desc":"** Empty **",
+			"drf":""
+		},{
+			"x":365,
+			"y":120,
+			"desc":"** Empty **",
+			"drf":""
+		}],
+		"Load": true
+	},
+	"WeightMenu": {
+		"Load": false
+	},
+	"Version": 1
+}

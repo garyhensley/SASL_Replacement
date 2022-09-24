@@ -1,0 +1,141 @@
+{
+	"Aircraft":"Cessna 172",
+
+	"DKMP": true,
+	"Tbient":false,	
+	
+	"ControlSurfaces": {
+		"Load": false
+	},	
+	"Doors": {
+		"Load": false
+	},
+	"HideYokes": {
+		"Load": false
+	},
+	"LandingGear": {
+		"Load": true
+	},
+	"Pilots": {
+		"PilotX": 0.0,
+		"PilotY": 0.0,
+		"PilotZ": 0.83,
+		"PassengerX": 0.0,
+		"PassengerY": 0.0,
+		"PassengerZ": 0.89,
+		"people": [
+			{
+				"id":1,
+				"x":0.0,
+				"y":0.0,
+				"z":0.83,
+				"Load":true
+			} , {
+				"id":2,
+				"x":0.0,
+				"y":0.0,
+				"z":0.89,
+				"Load":true				
+			} , {
+				"id":3,
+				"x":0.0,
+				"y":0.0,
+				"z":0.0,
+				"Load":true				
+			} , {
+				"id":4,
+				"x":0.0,
+				"y":0.0,
+				"z":0.0,
+				"Load":true				
+			}
+		],
+		"Load": true
+	},
+	"PropDisc": {
+		"Load": true
+	},
+	"TowBar": {
+		"Load": true,
+		"Steer": 0
+	},
+	"Windows": {
+		"Load": false
+	},
+	
+	"ElectricalSystem": {
+		"Load": true
+	},	
+	
+	"EngineCalc": {
+		"Load": false
+	},
+	"NoseWheel": {
+		"RealNose": true,
+		"YokeSteer": false,
+		"Steer": 0,
+		"Load": true
+	},
+	"PhysicsCalc": {
+		"DKMP" : false,
+		"DKMP_L": 0.8,
+		"DKMP_M": 0.0,
+		"DKMP_N": 0.6,
+		"Advanced": true,
+		"Load": false
+	},
+	
+	"Autopilot": {
+		"Name": "basic",
+		"Load": false
+	},	
+	
+	"OptionsMenu": {
+		"opts":[{
+			"x":68,
+			"y":347,
+			"desc":"Pilot Door",
+			"drf":"sim/cockpit2/switches/custom_slider_on[0]"			
+		},{
+			"x":68,
+			"y":275,
+			"desc":"Passenger Door",
+			"drf":"sim/cockpit2/switches/custom_slider_on[1]"
+		},{
+			"x":68,
+			"y":200,
+			"desc":"Baggage Door",
+			"drf":"sim/cockpit2/switches/custom_slider_on[23]"
+		},{
+			"x":68,
+			"y":120,
+			"desc":"Window Reflections",
+			"drf":"com/dkmp/windowrefl"
+		},{
+			"x":365,
+			"y":347,
+			"desc":"Towbar Handle",
+			"drf":"gkh/gear/Towbar"
+		},{
+			"x":365,
+			"y":275,
+			"desc":"Static Elements",
+			"drf":"com/dkmp/staticelements"
+		},{
+			"x":365,
+			"y":200,
+			"desc":"Wheel Farings",
+			"drf":"com/dkmp/Fairings"
+		},{
+			"x":365,
+			"y":120,
+			"desc":"Real Steer",
+			"drf":"gkh/gear/RealSteer"
+		}],
+		"Load": true
+	},
+	"WeightMenu": {
+		"Load": true
+	},
+	"Version": 1
+}

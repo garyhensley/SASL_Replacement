@@ -4,6 +4,8 @@ createGlobalPropertyfa("laminar/C172/sound/radio_volume_pilot",10,false,true,fal
 createGlobalPropertyi("gkh/gear/RealSteer",1,false,true,false )
 createGlobalPropertyi("gkh/gear/YokeSteer",0,false,true,false )
 createGlobalPropertyi("gkh/gear/Towbar",0,false,true,false )
+createGlobalPropertyi("gkh/views/staticelements",0,false,true,false ) 
+createGlobalPropertyi("gkh/views/planecover",0,false,true,false ) 
 createGlobalPropertyi("gkh/pilots/hide_pilot",0,false,true,false )
 createGlobalPropertyi("gkh/pilots/hide_passenger",0,false,true,false )
 createGlobalPropertyf("gkh/pilots/pilotX",0.0,false,true,false )
@@ -27,6 +29,8 @@ DRF = {
 	defineProperty("RealSteer",globalProperty("gkh/gear/RealSteer")),
 	defineProperty("YokeSteer",globalProperty("gkh/gear/YokeSteer")),
 	defineProperty("Towbar",globalProperty("gkh/gear/Towbar")),
+	defineProperty("staticelements",globalProperty("gkh/views/staticelements")),
+	defineProperty("planecover",globalProperty("gkh/views/planecover")),
 	defineProperty("hide_pilot",globalProperty("gkh/pilots/hide_pilot")),
 	defineProperty("hide_passenger",globalProperty("gkh/pilots/hide_passenger")),
 	defineProperty("pilotX",globalProperty("gkh/pilots/pilotX")),

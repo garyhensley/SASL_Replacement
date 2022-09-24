@@ -25,7 +25,7 @@ local nosewheel = {
 	current = 0,
 	defl = 0,
 	turndeg = 0,
-	maxdeg = 45 --max(get(drf.steerdeg1),get(drf.steerdeg2)),
+	maxdeg = gkh.NoseWheel.Degree --max(get(drf.steerdeg1),get(drf.steerdeg2)),
 }
 
 
