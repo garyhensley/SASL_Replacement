@@ -1,5 +1,5 @@
 # SASL_Replacement
- Replacement SASL for X-Plane 10 payware planes using SASLFree in X-Plane 12.
+ Replacement SASL plugin code for X-Plane 10 payware planes using SASLFree in X-Plane 12.
 
 This is a replacement SASL for older X-Plane 10 payware planes that use SASL v2.  It is fully configurable and allows you to determine which modules and extra features you would like to use.  It is specifically developed to target the Alabeo/Carenado planes from XP10 which were never updated.
 
@@ -16,4 +16,11 @@ This is a replacement SASL for older X-Plane 10 payware planes that use SASL v2.
 5.  Edit the "settings.json" file in the SASLFree\data\modules\Custom Module directory.  Each module/feature will can be turned on or off by changing the "Load" value for it in the settings file (true or false).
 
 Sample settings files are located in SASLFree\data\modules\Custom Module\sample_settings directory.
+
+
+# Custom Objects
+
+There are custom objects that can be added to your plane.  They are optional and will not prevent the plugin from working.
+
+To install, copy the directories in the custom objects directory to your plane's objects directory.  Add the objects in the directories in PlaneMaker 12 "Objects".
 
