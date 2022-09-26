@@ -137,5 +137,8 @@
 	"WeightMenu": {
 		"Load": true
 	},
+	"RadioMenu": {
+		"Load": true
+	},
 	"Version": 1
 }

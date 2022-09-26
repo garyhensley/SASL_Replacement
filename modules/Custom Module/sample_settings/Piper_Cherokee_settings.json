@@ -74,7 +74,6 @@
 		"RealNose": true,
 		"YokeSteer": false,
 		"Steer": 0,
-		"Degree": 22,
 		"Load": true
 	},
 	"PhysicsCalc": {
